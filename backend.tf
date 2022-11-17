@@ -4,7 +4,7 @@ terraform {
     hostname = "app.terraform.io"
     organization = "DDMCLOUD2021"
     workspaces {
-      name = "ace-iac-day-zero"
+      name = "ace-iac-day-zero-1"
     }
   }
 }
