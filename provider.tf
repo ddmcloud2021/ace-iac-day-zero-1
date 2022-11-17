@@ -7,6 +7,8 @@ provider "aviatrix" {
 provider "aws" {
   alias  = "ohio"
   region = var.aws_spoke1_region
+  access_key = var.aws_access_key
+  secret_key = var.aws_secret_key
 }
 
 provider "azurerm" {
